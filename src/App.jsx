@@ -1,10 +1,13 @@
+import Hero from './components/Section/Hero';
+import Navbar from './components/Section/Navbar';
+import AppLayout from './layout/AppLayout';
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-[#995544] text-2xl font-bold">
-        just checking is tailwind configured or not
-      </h1>
-    </div>
+    <AppLayout>
+      <Navbar />
+      <Hero />
+    </AppLayout>
   );
 }
 
